@@ -1,0 +1,13 @@
+type ExampleEntity @entity {
+  id: ID!
+  count: BigInt!
+  previousOwner: Bytes! # address
+  newOwner: Bytes! # address
+}
+
+type Distribution @entity {
+  id: ID!
+  source: String!
+  address: String!
+  amount: BigInt!
+}
