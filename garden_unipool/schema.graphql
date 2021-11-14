@@ -10,4 +10,5 @@ type Distribution @entity {
   source: String!
   address: String!
   amount: BigInt!
+  timestamp: Int!
 }
