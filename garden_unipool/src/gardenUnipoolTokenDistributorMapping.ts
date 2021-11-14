@@ -1,12 +1,11 @@
 import { BigInt } from "@graphprotocol/graph-ts"
 import {
-  Contract,
   OwnershipTransferred,
   RewardAdded,
   RewardPaid,
   Staked,
   Withdrawn
-} from "../generated/Contract/Contract"
+} from "../generated/GardenUnipoolTokenDistributor/GardenUnipoolTokenDistributor"
 import {Distribution} from "../generated/schema"
 
 export function handleOwnershipTransferred(event: OwnershipTransferred): void {
